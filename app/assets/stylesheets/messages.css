@@ -1,0 +1,43 @@
+.cover{
+  display:flex;
+}
+
+.side{
+  background-color:orange;
+  width:250px;
+  height:100vh;
+}
+
+.main{
+  background-color:whitesmoke;
+  width:calc(100vw - 250px);
+}
+
+.side-header{
+  height:100px;
+  padding:0px 20px;
+}
+
+.rooms{
+  height:calc(100vh - 100px);
+  background-color:#2F3E51;
+  padding:0px 20px;
+}
+
+.main-header{
+  height:100px;
+  background-color:white;
+  padding:0px 40px;
+}
+
+.messages{
+  height:calc(100vh - 100px - 90px);
+  background-color:rgb(240, 236, 236);
+  padding:40px 40px 0px ;
+}
+
+.form{
+  height:90px;
+  background-color:rgb(200, 231, 243);
+  padding:20px 40px;
+}
