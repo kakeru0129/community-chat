@@ -4,24 +4,52 @@
 
 .side{
   background-color:orange;
-  width:250px;
+  width:300px;
   height:100vh;
 }
 
 .main{
   background-color:whitesmoke;
-  width:calc(100vw - 250px);
+  width:calc(100vw - 300px);
 }
 
 .side-header{
   height:100px;
   padding:0px 20px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.header-name a{
+  font-size:30px;
+  text-decoration: none;
+  color:white;
+  padding:0px 20px;
+}
+
+.create-room a{
+  font-size:15px;
+  text-decoration: none;
+  color:white;
+  border:1px solid white;
+  padding:5px;
 }
 
 .rooms{
   height:calc(100vh - 100px);
   background-color:#2F3E51;
   padding:0px 20px;
+}
+
+.room{
+  padding:40px 20px 0px;
+}
+
+.room-name a{
+  font-size: 20px;
+  color:white;
+  text-decoration: none;
 }
 
 .main-header{
