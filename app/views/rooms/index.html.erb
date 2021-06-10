@@ -6,7 +6,7 @@
       <%= room.category.name %>
     </div>
     <div class="room-name">
-      <%= room.name %>
+      <%= link_to room.name, messages_index_path %>
     </div>
   </div>
 <% end %>

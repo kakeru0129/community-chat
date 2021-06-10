@@ -43,11 +43,11 @@
   padding:0px 20px;
 }
 
-.room{
+.user-room{
   padding:40px 20px 0px;
 }
 
-.room-name a{
+.room-user a{
   font-size: 20px;
   color:white;
   text-decoration: none;
