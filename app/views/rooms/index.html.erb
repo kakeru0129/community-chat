@@ -1,0 +1,13 @@
+<h1>記事一覧</h1>
+<%= link_to "チャットルームを作成する", new_room_path, class:"post" %>
+<% @rooms.each do |room| %>
+  <div class="room">
+    <div class="room-category">
+      <%= room.category.name %>
+    </div>
+    <div class="room-name">
+      <%= room.name %>
+    </div>
+  </div>
+<% end %>
+
