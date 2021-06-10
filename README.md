@@ -17,9 +17,10 @@
 
 ## rooms テーブル
 
-| Column   | Type   | Options     |
-| -------- | ------ | ----------- |
-| name     | string | null: false |
+| Column      | Type   | Options     |
+| ----------- | ------ | ----------- |
+| name        | string | null: false |
+| category_id | integer| null: false |
 
 ### Association
 
