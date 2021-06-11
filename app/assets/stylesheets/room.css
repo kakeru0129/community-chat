@@ -11,6 +11,14 @@ h2 {
   font-size: 14px;
 }
 
+h3 {
+  letter-spacing: 2px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -129,8 +137,8 @@ select {
 }
 
 .room{
-  height:200px;
-  background-color:lightgray;
+  height:200vh;
+  background-color:lightgreen;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -140,26 +148,31 @@ select {
 
 .post{
   display: block;
-  width: 150px;
+  width: 250px;
   padding: 10px;
   border: 1px solid white;
   background-color: orange;
   color: white;
   text-decoration: none;
   text-align: center;
-  margin: 0 auto;
+  margin: 10px auto 0;
   margin-bottom: 20px;
 }
 
 
 .room-category{
   font-size: 16px;
-  border: 1px solid;
+  border: 1px solid black;
   padding: 5px;
-  background-color: lightblue;
+  color:black;
 }
 
 .room-name{
   font-size: 20px;
   font-weight: bold;
+}
+
+.room-name a{
+  text-decoration: none;
+  color:black;
 }
