@@ -136,14 +136,17 @@ select {
   display: contents;
 }
 
+.top-page{
+  height: 100vh;
+}
+
 .room{
-  height:200vh;
-  background-color:lightgreen;
+  height: 80vh;
   display: flex;
   align-items: center;
   flex-direction: column;
-  border: 1px solid #fff;
   padding: 20px;
+  background-color: lightgreen;
 }
 
 .post{
@@ -164,12 +167,14 @@ select {
   font-size: 16px;
   border: 1px solid black;
   padding: 5px;
+  margin-bottom: 5px;
   color:black;
 }
 
 .room-name{
   font-size: 20px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .room-name a{

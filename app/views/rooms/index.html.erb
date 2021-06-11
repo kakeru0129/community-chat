@@ -1,13 +1,15 @@
-<h3>チャット一覧</h3>
-<%= link_to "チャットルームを作成する", new_room_path, class:"post" %>
-<% @rooms.each do |room| %>
+<div class="top-page">
+  <h3>チャット一覧</h3>
+  <%= link_to "チャットルームを作成する", new_room_path, class:"post" %>
   <div class="room">
-    <div class="room-category">
-      <%= room.category.name %>
-    </div>
-    <div class="room-name">
-      <%= link_to room.name, messages_index_path %>
-    </div>
+    <% @rooms.each do |room| %>
+        <div class="room-category">
+          <%= room.category.name %>
+        </div>
+        <div class="room-name">
+          <%= link_to room.name, messages_index_path %>
+        </div>
+    <% end %>
   </div>
-<% end %>
+</div>
 
