@@ -3,12 +3,12 @@
   <%= link_to "チャットルームを作成する", new_room_path, class:"post" %>
   <div class="room">
     <% @rooms.each do |room| %>
-        <div class="room-category">
-          <%= room.category.name %>
-        </div>
-        <div class="room-name">
-          <%= link_to room.name, messages_index_path %>
-        </div>
+      <div class="room-category">
+        <%= room.category.name %>
+      </div>
+      <div class="room-name">
+        <%= link_to room.name, room_messages_path(room) %>
+      </div>
     <% end %>
   </div>
 </div>
