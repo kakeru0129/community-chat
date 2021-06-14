@@ -132,16 +132,12 @@ select {
   width: 100%;
 }
 
-.field_with_errors{
-  display: contents;
-}
-
 .top-page{
   height: 100vh;
 }
 
 .room{
-  height: 80vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -180,4 +176,8 @@ select {
 .room-name a{
   text-decoration: none;
   color:black;
+}
+
+.field_with_errors {
+  display: contents;
 }
