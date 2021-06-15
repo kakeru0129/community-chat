@@ -1,14 +1,14 @@
 class Category < ActiveHash::Base
   self.data = [
-    { id: 1, name: '--' },
-    { id: 2, name: '経済' },
-    { id: 3, name: '政治' },
-    { id: 4, name: '地域' },
-    { id: 5, name: '国際' },
-    { id: 6, name: 'IT' },
-    { id: 7, name: 'エンタメ' },
-    { id: 8, name: 'スポーツ' },
-    { id: 9, name: 'グルメ' },
+    { id: 1, name: 'ゲームジャンルを選択' },
+    { id: 2, name: 'アクション' },
+    { id: 3, name: 'シューティング' },
+    { id: 4, name: 'シュミレーション' },
+    { id: 5, name: 'レーシング' },
+    { id: 6, name: 'アドベンチャー' },
+    { id: 7, name: 'ロールプレイング' },
+    { id: 8, name: 'パズル' },
+    { id: 9, name: '音楽' },
     { id: 10, name: 'その他' }
   ]
 
